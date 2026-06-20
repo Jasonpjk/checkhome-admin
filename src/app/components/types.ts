@@ -1,0 +1,17 @@
+export type Page =
+  | 'dashboard'
+  | 'members'
+  | 'items'
+  | 'vehicles'
+  | 'categories'
+  | 'notifications'
+  | 'subscriptions'
+  | 'announcements'
+  | 'support'
+  | 'policy'
+  | 'admins'
+  | 'audit'
+
+export type RiskLevel = '강' | '중' | '약'
+export type MemberStatus = '정상' | '휴면' | '탈퇴요청' | '차단'
+export type SubscriptionStatus = '무료' | '체험' | '유료' | '결제실패' | '해지예정'
