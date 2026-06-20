@@ -1,4 +1,4 @@
-import { useState, useEffect, type ReactNode } from 'react'
+import { useState, useEffect } from 'react'
 import { Search, X, Image, Bell, Trash2, AlertTriangle, Calendar, MapPin, User } from 'lucide-react'
 import { toast } from 'sonner'
 import { StatusBadge, RiskBadge } from '../shared/StatusBadge'
